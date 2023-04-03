@@ -1,0 +1,104 @@
+/* Change the font of the entire page */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Add a background image to the header */
+.header {
+  background-image: url("https://telegra.ph/file/5ed26b20a1db1727150b5.jpg");
+  background-size: cover;
+  height: 300px; /* Adjust the height of the header image as needed */
+}
+
+/* Add a border and padding to the profile picture */
+.profileHeader {
+  border: 5px solid white;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+/* Change the color of the profile statistics */
+.profileStatistics {
+  color: white;
+}
+
+/* Change the color and size of the anime/manga progress bars */
+.progressBar {
+  background-color: #eee;
+  height: 10px;
+}
+
+.progressBar__progress {
+  background-color: #FF6F00;
+  height: 10px;
+}
+
+/* Change the color and size of the anime/manga progress text */
+.progressText {
+  font-size: 12px;
+  color: white;
+}
+
+/* Change the color of the anime/manga titles */
+.mediaCard__title {
+  color: white;
+}
+
+/* Change the color of the anime/manga synopsis */
+.mediaCard__description {
+  color: white;
+}
+
+/* Change the background color of the navigation bar */
+.navbar {
+  background-color: #FF6F00;
+}
+
+/* Change the color of the navigation bar links */
+.navbar__link {
+  color: white;
+}
+
+/* Change the color of the active navigation bar link */
+.navbar__link--active {
+  color: #FFD700;
+}
+
+/* Change the color and font size of the profile bio */
+.profileAbout {
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Add a Naruto-themed background to the profile */
+#mediaList {
+  background-image: url("https://i.imgur.com/tzwbmNJ.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Change the color of the "Watching" progress bar */
+.media-watching .progressBar__progress {
+  background-color: #2E8B57;
+}
+
+/* Change the color of the "Completed" progress bar */
+.media-completed .progressBar__progress {
+  background-color: #808080;
+}
+
+/* Change the color of the "Dropped" progress bar */
+.media-dropped .progressBar__progress {
+  background-color: #FF0000;
+}
+
+/* Change the color of the "Paused" progress bar */
+.media-paused .progressBar__progress {
+  background-color: #FFD700;
+}
+
+/* Change the color of the "Planning" progress bar */
+.media-planning .progressBar__progress {
+  background-color: #FF6F00;
+}
